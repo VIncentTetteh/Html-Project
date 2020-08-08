@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body{
+            font-size: 20;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #header{
+            background-color: lightblue;
+            padding: 25px;
+        }
+        #nav{
+            background-color: lightcoral;
+            padding: 25px;
+        }
+        #main-section{
+            background-color: lightgray;
+            padding: 25px;
+        }
+        #articles{
+            background-color: rgb(56, 58, 56);
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: white;
+            border-radius: 5%;
+            border-style: solid;
+        }
+        #article-header{
+            color: tomato;
+            margin-left: 5px;
+        }
+        span{
+            padding: 25px;
+
+        }
+        span.hover{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            margin-left: 10px;
+        }
+        #footer{
+            background-color: rgb(43, 40, 40);
+            padding: 80px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        #footer-span{
+            color: white;
+        }
+        #footer-section{
+            float: left;
+            margin-left: 50px;
+            
+        }
+        details{
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        table{
+            margin-top: 25px;
+            width: 700px;
+            background-color:  rgb(56, 58, 56);
+            border-collapse: collapse;
+            margin-left: 20px;
+        }
+        table,th,td{
+            border: 5px solid white ;
+        }
+        th,td{
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            font-style: italic;
+            color: tomato;
+        }
+        caption{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #table-section{
+            margin-left: 20px;
+        }
+        img{
+            min-height: 5%;
+            max-width: 100%;
+            max-height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">  
+        <nav id="nav">
+            <span><a href="/index.html">Home</a></span>
+            <span><a href="http://">About</a></span>
+            <span><a href="/signup.html">Signup</a></span>
+            <span><a href="/login.html">Login</a></span>
+        </nav>
+     </header>
+
+     <main id="main-section">
+         <section id="sections">
+             <article id="articles">
+                 <header id="article-header">
+                     <h3>Edem</h3>
+                 </header>
+                 <p>
+                     lorem is good. lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                 </p>
+                 <details>
+                     <summary>Read More</summary>
+                     <p>Edem is a good boy please buy him ice cream</p>
+                 </details>
+             </article>
+            <article id="articles">
+                <header id="article-header">
+                    <h3>Vincent</h3>
+                </header>
+                <p>
+                    lorem is good. lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                </p>
+                <details>
+                    <summary>Read More</summary>
+                    <p>Vincent is a good boy Take good care of him</p>
+                </details>
+            </article>
+            <article id="articles">
+                <header id="article-header">
+                    <h3>Prince</h3>
+                </header>
+                <p>
+                    lorem is good. lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                </p>
+                <details>
+                     <summary>Read More</summary>
+                     <p>Prince is a darling boy please buy him bank and chiken from mirage</p>
+                 </details>
+            </article>
+            <article id="articles">
+                <header id="article-header">
+                    <h3>Joan</h3>
+                </header>
+                <p>
+                    lorem is good. lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                </p>
+                <details>
+                     <summary>Read More</summary>
+                     <p>Joan is a lovely girl please buy her pizza and coke</p>
+                 </details>
+            </article>
+            <article id="articles">
+                <header id="article-header">
+                    <h3>Alice</h3>
+                </header>
+                <p>
+                    lorem is good. lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                    lorem is good.lorem is good.lorem is good.lorem is good.lorem is good.
+                </p>
+                <details>
+                     <summary>Read More</summary>
+                     <p>Alice is an angel please take good care of her and buy her ice cream and all the things in the world</p>
+                 </details>
+            </article>
+
+         </section>
+         <section>
+             <table>
+                 <caption>Our Third Year ICT Time Table</caption>
+                 <tr>
+                     <th rowspan="7"><span style="color: red;">1</span><span style="color: rgb(11, 13, 105);"> - </span> <span style="color: rgb(138, 170, 22);">3</span> Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                 </tr>
+                 <tr>
+                     <td>Computer Graphics</td>
+                     <td>Mobile Service System Design</td>
+                     <td>Electronic Commerce</td>
+                     <td>Enterpreneurship Development</td>
+                     <td>Computer Security</td>
+                    <td>Mobile Service System Design</td>
+                    <td>Electronic Commerce</td>
+                 </tr>
+                <tr>
+                    <td>Mobile Service System Design</td>
+                    <td>Computer Graphics</td>
+                    <td>Enterpreneurship Development</td>
+                    <td><span style="color: yellow;">Free Period</span></td>
+                    <td>Computer Security</td>
+                    <td>Mobile Service System Design</td>
+                    <td>Electronic Commerce</td>
+                </tr>
+                <tr>
+                    <td>Computer Graphics</td>
+                    <td><span style="color: yellow;">Free Period</span></td>
+                    <td>Electronic Commerce</td>
+                    <td>Enterpreneurship Development</td>
+                    <td>Computer Security</td>
+                    <td>Mobile Service System Design</td>
+                    <td>Electronic Commerce</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: center; color: rgb(243, 189, 10);">Launch Break</td>
+                </tr>
+                <tr>
+                    <td>Mobile Service System Design</td>
+                    <td>Computer Graphics</td>
+                    <td>Enterpreneurship Development</td>
+                    <td><span style="color: yellow;">Free Period</span></td>
+                    <td>Computer Security</td>
+                    <td>Mobile Service System Design</td>
+                    <td>Electronic Commerce</td>
+                </tr>
+                <tr>
+                    <td>Computer Graphics</td>
+                    <td>Mobile Service System Design</td>
+                    <td>Electronic Commerce</td>
+                    <td>Enterpreneurship Development</td>
+                    <td>Computer Security</td><td>Mobile Service System Design</td>
+                    <td><span style="color: yellow;">Free Period</span></td>
+                </tr>
+             </table>
+         </section>
+         <section>
+             <table style="margin-left: auto; margin-right: auto;">
+                 <caption>Our Lovely Moments</caption>
+                 <tr>
+                     <th rowspan="3">I love you all</th>
+                 </tr>
+                 <tr>
+                     <td>
+                         <div>
+                             <img src="images/edem1.jpg" alt="image">
+                             <details>
+                                 <summary>Check Name</summary>
+                                <p>Thats Edem</p>
+                             </details>
+                             
+                         </div>
+                     </td>
+                    <td>
+                        <div>
+                            <img src="images/vincent1.jpg" alt="image">
+                            <details>
+                                <summary>Check Name</summary>
+                                <p>Thats Vincent</p>
+                            </details>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="images/joan1.jpg" alt="image">
+                            <details>
+                                <summary>Check Name</summary>
+                                <p>Thats Joan</p>
+                            </details>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="images/Chrisbone.png" alt="image">
+                            <details>
+                                <summary>Check Name</summary>
+                                <p>Thats Chrisbone</p>
+                            </details>
+                        </div>
+                    </td>
+
+                 </tr>
+
+                <tr>
+                    <td>
+                        <div>
+                            <img src="images/vermax covid Edem.png" alt="image">
+                            <p>Thats Edem Covid19 Poster</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="images/vermax covid vincent.png" alt="image">
+                            <p>Thats Vincent Covid19 Poster</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="images/vermax covid JOAN.png" alt="image">
+                            <p>Thats Joan Covid19 Poster</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="images/vermax covid Abi.png" alt="image">
+                            <p>Thats Abigails Covid19 Poster</p>
+                        </div>
+                    </td>
+                
+                </tr>
+             </table>
+         </section>
+     </main>
+    <footer id="footer">
+       <section id="footer-section">
+            <span>@vincentchrisbone 2020 &copy; VERMAX INDUSTRIES</span>
+       </section>
+    <section id="footer-section">
+        <span id="footer-span">Twitter</span>
+        <span id="footer-span">Facebook</span>
+        <span id="footer-span">Yahoo</span>
+        <span id="footer-span">Instagram</span>
+    </section>
+    </footer>
+</body>
+</html>

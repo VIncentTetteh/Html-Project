@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+         body{
+            font-size: 20;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #header{
+            background-color: lightblue;
+            padding: 25px;
+        }
+        #nav{
+            background-color: lightcoral;
+            padding: 25px;
+        }
+        span{
+            padding: 25px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #main-section{
+            background-color: lightgray;
+            padding: 25px;
+        }
+        #login-form{
+            background-color: white;
+            width: 300px;
+            padding: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #input-item{
+            width: 100%;
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+        #form-label{
+            margin: 0;
+            margin-top: 12px;
+    
+        }
+        .btn{
+            color: white;
+            background-color: blue;
+        }
+        #footer{
+            background-color: rgb(43, 40, 40);
+            padding: 80px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        #footer-span{
+            color: white;
+        }
+        #footer-section{
+            float: left;
+            margin-left: 50px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <span><a href="/index.html">Home</a></span>
+            <span><a href="http://">About</a></span>
+            <span><a href="/signup.html">Signup</a></span>
+            <span><a href="/login.html">Login</a></span>
+        </nav>
+    </header>
+    <main id="main-section">
+        <section>
+            <form action="post" id="login-form">
+                <div>
+                    <p id="form-label">Email</p>
+                    <input id="input-item" type="email" name="email">
+                </div>
+                <div>
+                    <p id="form-label">Password</p>
+                    <input id="input-item" type="password" name="password" autofocus>
+                </div>
+                <div>
+                    <input class="btn" id="input-item" type="submit" value="Login" name="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="footer-section">
+            <span>@vincentchrisbone 2020 &copy; VERMAX INDUSTRIES</span>
+        </section>
+        <section id="footer-section">
+            <span id="footer-span">Twitter</span>
+            <span id="footer-span">Facebook</span>
+            <span id="footer-span">Yahoo</span>
+            <span id="footer-span">Instagram</span>
+        </section>
+    </footer>
+</body>
+</html>

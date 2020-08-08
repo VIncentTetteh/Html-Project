@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body{
+            font-size: 20;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+         #header{
+            background-color: lightblue;
+            padding: 25px;
+        }
+        #nav{
+            background-color: lightcoral;
+            padding: 25px;
+        }
+        #main-section{
+            background-color: lightgray;
+            padding: 25px;
+
+        }
+        span{
+            padding: 25px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        #input-label{
+            margin: 0;
+            margin-bottom: 4px;
+            margin-top: 12px;
+        }
+        #forms{
+           width: 300px;
+           background-color: white; 
+           padding: 24px;
+           margin-right: auto;
+           margin-left: auto;
+           
+        }
+        #input-item{
+            width: 100%;
+        }
+        .term-check{
+            margin-top: 12px;
+            margin-bottom: 18px;
+        }
+        h2{
+            text-align: center;
+        }
+        .btn{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        #footer{
+            background-color: rgb(43, 40, 40);
+            padding: 80px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        #footer-span{
+            color: white;
+        }
+        #footer-section{
+            float: left;
+            margin-left: 50px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <span><a href="/index.html">Home</a></span>
+            <span><a href="http://">About</a></span>
+            <span><a href="/signup.html">Signup</a></span>
+            <span><a href="/login.html">Login</a></span>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <h2>Signup</h2>
+            <form action="post" id="forms">
+                <div>
+                   <p id="input-label">Username:</p>
+                    <input id="input-item" type="text" name="full-name" autofocus>
+                </div>
+                <div>
+                    <p id="input-label">Email:</p>
+                    <input  id="input-item" type="email" name="email">
+                </div>
+                <div>
+                    <p id="input-label">Password:</p>
+                    <input  id="input-item" type="password" name="password">
+                </div>
+                <div>
+                    <p id="input-label">Confirm Password:</p>
+                    <input  id="input-item" type="password" name="password-confirm">
+                </div>
+                <div>
+                    <p id="input-label">Date of birth</p>
+                    <input id="input-item" type="date" name="date-of-birth">
+                </div>
+                <div>
+                    <p id="input-label">Profile image</p>
+                    <input id="input-item" type="file" name="profile-image">
+                </div>
+                <div>
+                    <p id="input-label">Gerder:</p>
+                    <input  type="radio" name="gender" value="male">Male
+                    <input  type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                </div>
+                <div>
+                    <p id="input-label">What technologies do you know</p>
+                    <input id="input-label" list="technologies" multiple>
+                    <datalist id="technologies">
+                        <option value="html"></option>
+                        <option value="css"></option>
+                        <option value="java"></option>
+                        <option value="javascript"></option>
+                        <option value="c#"></option>
+                        <option value=".Net"></option>
+                    </datalist>
+
+                </div>
+                <div>
+                    <p id="input-label">Security questions:</p>
+                    <select  id="input-item" name="security-question" id="security-question">
+                        <option value="pet-name">What is the name of your pet</option>
+                        <option value="mothers-name">What is the name of your mother</option>
+                        <option value="school-name">What is the name of your school</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea  id="input-item" name="security-answer" id="" cols="28" rows="5"></textarea>
+                </div>
+                <div>
+                    <input class="term-check" type="checkbox" name="agreement" value="agreed"> 
+                    I have read and agreed to your terms and conditions
+
+                </div>
+                <div>
+                    <input  id="input-item" class="btn" type="submit" name="submit" value="Sign up >>">
+                </div>
+            </form>
+        </section>
+       
+    </main>
+    <footer id="footer">
+        <section id="footer-section">
+            <span>@vincentchrisbone 2020 &copy; VERMAX INDUSTRIES</span>
+        </section>
+        <section id="footer-section">
+            <span id="footer-span">Twitter</span>
+            <span id="footer-span">Facebook</span>
+            <span id="footer-span">Yahoo</span>
+            <span id="footer-span">Instagram</span>
+        </section>
+    </footer>
+</body>
+</html>

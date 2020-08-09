@@ -93,23 +93,23 @@
             <form action="post" id="forms">
                 <div>
                    <p id="input-label">Username:</p>
-                    <input id="input-item" type="text" name="full-name" autofocus>
+                    <input id="input-item" type="text" name="full-name" autofocus required>
                 </div>
                 <div>
                     <p id="input-label">Email:</p>
-                    <input  id="input-item" type="email" name="email">
+                    <input  id="input-item" type="email" name="email" required>
                 </div>
                 <div>
                     <p id="input-label">Password:</p>
-                    <input  id="input-item" type="password" name="password">
+                    <input  id="input-item" type="password" name="password" required maxlength="8">
                 </div>
                 <div>
                     <p id="input-label">Confirm Password:</p>
-                    <input  id="input-item" type="password" name="password-confirm">
+                    <input  id="input-item" type="password" name="password-confirm" required maxlength="8">
                 </div>
                 <div>
                     <p id="input-label">Date of birth</p>
-                    <input id="input-item" type="date" name="date-of-birth">
+                    <input id="input-item" type="date" name="date-of-birth" required>
                 </div>
                 <div>
                     <p id="input-label">Profile image</p>
@@ -117,13 +117,13 @@
                 </div>
                 <div>
                     <p id="input-label">Gerder:</p>
-                    <input  type="radio" name="gender" value="male">Male
-                    <input  type="radio" name="gender" value="female">Female
-                    <input type="radio" name="gender" value="other">Other
+                    <input  type="radio" name="gender" value="male" required>Male
+                    <input  type="radio" name="gender" value="female" required>Female
+                    <input type="radio" name="gender" value="other" required>Other
                 </div>
                 <div>
                     <p id="input-label">What technologies do you know</p>
-                    <input id="input-label" list="technologies" multiple>
+                    <input id="input-label" list="technologies" required>
                     <datalist id="technologies">
                         <option value="html"></option>
                         <option value="css"></option>
@@ -143,10 +143,10 @@
                     </select>
                 </div>
                 <div>
-                    <textarea  id="input-item" name="security-answer" id="" cols="28" rows="5"></textarea>
+                    <textarea  id="input-item" name="security-answer" id="" cols="28" rows="5" required></textarea>
                 </div>
                 <div>
-                    <input class="term-check" type="checkbox" name="agreement" value="agreed"> 
+                    <input class="term-check" type="checkbox" name="agreement" value="agreed" required> 
                     I have read and agreed to your terms and conditions
 
                 </div>
